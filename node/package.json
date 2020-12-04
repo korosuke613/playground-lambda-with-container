@@ -1,0 +1,13 @@
+{
+  "name": "playground-lambda-with-container",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "faker": "^5.1.0",
+    "get-stream": "^6.0.0",
+    "pdfkit": "^0.11.0"
+  }
+}
