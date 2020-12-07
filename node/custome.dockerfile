@@ -1,6 +1,6 @@
 FROM public.ecr.aws/bitnami/node:14.15.1-debian-10-r8
-RUN apt-get update
 
+RUN apt-get update
 RUN apt-get install -y cmake autoconf libtool
 
 RUN npm config set prefix '~/.npm-global'
